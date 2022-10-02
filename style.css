@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-
 :root{
     --font-family: 'Raleway', sans-serif;
     --bg-color: #A760FF ;
@@ -24,6 +23,12 @@ h1{
     font-size: 5em;
 }
 
+h2{
+    font-size: 4.5em;
+    border: 5px outset #684791;
+    padding: .3em;
+}
+
 h3{
     font-size: 2em;
     margin-top: 20px;
@@ -40,4 +45,22 @@ h3{
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+
+.btn--jogar{
+    font-size: 1rem;
+    padding: 8px 15px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px black;
+    transition:  .3s ease-in-out;
+}
+
+.btn--jogar:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+
 }

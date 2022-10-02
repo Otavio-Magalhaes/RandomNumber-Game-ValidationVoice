@@ -13,4 +13,4 @@ const elementoMenorValor = document.getElementById("menor__valor");
 const elementoMaiorValor = document.getElementById("maior__valor");
 
 elementoMenorValor.innerHTML = menorValor;
-elementoMaiorValor.innerHTML = maiorValor;
+elementoMaiorValor.innerHTML = maiorValor; 
